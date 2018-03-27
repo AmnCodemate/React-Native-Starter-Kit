@@ -1,4 +1,4 @@
-#Features
+##Features
  - Redux with Redux Thunk
  - React-Navigation
  - Redux Dev tools integrated in "Debug JS Remotely"
@@ -24,7 +24,7 @@
 | [ImmutableJS](https://facebook.github.io/immutable-js/) | Immutable persistent data collections for Javascript which increase efficiency and simplicity. |
 | [Styled Components](https://www.styled-components.com/) | Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components. |
 | [Babel](https://babeljs.io/) | Use next generation JavaScript, today. |
-| [EsLint](https://eslint.org/) / Code Style Guide | We're using [Airbnb's](https://github.com/airbnb/javascript) JS/React Style Guide with ESLint linting. |
+| [EsLint](https://eslint.org/) | We're using [Airbnb's](https://github.com/airbnb/javascript) JS/React Style Guide with ESLint linting. |
 | [React-Native SVG](https://github.com/react-native-community/react-native-svg) | It provides a SVG interface to react native on both iOS and Android. |
 | [React-Native SVG Icon](https://github.com/stowball/react-native-svg-icon) | A simple, but flexible SVG icon component for React Native. |
 | [Redux Persist](https://github.com/rt2zz/redux-persist) | Data Caching / Offline. |
@@ -82,7 +82,16 @@
 ## React-Native SVG Icon component creator
   $ npm i react-native-svg-icon --save
 
-## Reactive   
+## Reactive Client Command
 # Clear cache
   $ npm cache clean --force & npm install & npm start -- --reset-cache    
 
+## Using Git with React-Native
+  $ cd { projec_name }
+  $ git init
+  $ git add .
+  $ git commit -m "initial commit" 
+
+  Create a repository in Github and copy the repo URL
+  $ git remote add origin { repo_url }
+  $ git push -u origin master
