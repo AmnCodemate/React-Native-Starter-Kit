@@ -1,4 +1,4 @@
-##Features
+## Features
  - Redux with Redux Thunk
  - React-Navigation
  - Redux Dev tools integrated in "Debug JS Remotely"
@@ -50,14 +50,14 @@
   - `root.js` - Main app is here
 
 ##Installing indiviual dependencies
-Redux and Thunk Middleware
-  $ npm install --save redux
-  $ npm install --save react-redux
-  $ npm install --save redux-thunk
+Redux and Thunk Middleware <br />
+  $ npm install --save redux <br />
+  $ npm install --save react-redux <br />
+  $ npm install --save redux-thunk <br />
 
-Redux Devtools [Use with Debug Js Remotely]
-  $ npm install --save-dev remote-redux-devtools
-  $ npm install --save-dev remotedev-rn-debugger
+Redux Devtools [Use with Debug Js Remotely] <br />
+  $ npm install --save-dev remote-redux-devtools <br />
+  $ npm install --save-dev remotedev-rn-debugger <br />
 
   Add command to your project's package.json:
   ```
@@ -66,32 +66,32 @@ Redux Devtools [Use with Debug Js Remotely]
   }
   ```
 
-Redux Persist
-  $ npm install --save redux-persist
+Redux Persist <br />
+  $ npm install --save redux-persist <br />
 
-Axios
-  $ npm install --save axios  
+Axios <br />
+  $ npm install --save axios <br />
 
-React-Navigation
-  $ npm install --save react-navigation
+React-Navigation <br />
+  $ npm install --save react-navigation <br />
 
-React-Native SVG icon helper
-  $ npm install react-native-svg --save
-  $ react-native link react-native-svg   
+React-Native SVG icon helper <br />
+  $ npm install react-native-svg --save <br />
+  $ react-native link react-native-svg <br />
 
-React-Native SVG Icon component creator
-  $ npm i react-native-svg-icon --save
+React-Native SVG Icon component creator <br />
+  $ npm i react-native-svg-icon --save <br />
 
 ## React-Native important client command
-Clear cache
-  $ npm cache clean --force & npm install & npm start -- --reset-cache    
+Clear cache <br />
+  $ npm cache clean --force & npm install & npm start -- --reset-cache <br />
 
 ## Using Git with React-Native
-  $ cd { projec_name }
-  $ git init
-  $ git add .
-  $ git commit -m "initial commit" 
+  $ cd { projec_name } <br />
+  $ git init <br />
+  $ git add . <br />
+  $ git commit -m "initial commit"  <br />
 
-  Create a repository in Github and copy the repo URL
-  $ git remote add origin { repo_url }
-  $ git push -u origin master
+  Create a repository in Github and copy the repo URL <br />
+  $ git remote add origin { repo_url } <br />
+  $ git push -u origin master <br />
