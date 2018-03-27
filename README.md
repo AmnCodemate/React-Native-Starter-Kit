@@ -49,13 +49,13 @@
   - `/utils` - Utility folder
   - `root.js` - Main app is here
 
-#Installing indiviual dependencies
-## Redux and Thunk Middleware
+##Installing indiviual dependencies
+Redux and Thunk Middleware
   $ npm install --save redux
   $ npm install --save react-redux
   $ npm install --save redux-thunk
 
-## Redux Devtools [Use with Debug Js Remotely]
+Redux Devtools [Use with Debug Js Remotely]
   $ npm install --save-dev remote-redux-devtools
   $ npm install --save-dev remotedev-rn-debugger
 
@@ -66,24 +66,24 @@
   }
   ```
 
-## Redux Persist
+Redux Persist
   $ npm install --save redux-persist
 
-## Axios
+Axios
   $ npm install --save axios  
 
-## React-Navigation
+React-Navigation
   $ npm install --save react-navigation
 
-## React-Native SVG icon helper
+React-Native SVG icon helper
   $ npm install react-native-svg --save
   $ react-native link react-native-svg   
 
-## React-Native SVG Icon component creator
+React-Native SVG Icon component creator
   $ npm i react-native-svg-icon --save
 
-## Reactive Client Command
-# Clear cache
+## React-Native important client command
+Clear cache
   $ npm cache clean --force & npm install & npm start -- --reset-cache    
 
 ## Using Git with React-Native
